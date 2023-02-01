@@ -17,4 +17,5 @@ Nested БЭМ
 
 ## Ссылка на github
 
-https://github.com/ya-strannik0013/russian-travel.git
+
+https://github.com/ya-strannik0013/russian-travel-az
