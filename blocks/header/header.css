@@ -1,0 +1,27 @@
+/* 1280 1024 */
+.header {
+  margin: 0 auto;
+  margin-top: 28px;
+  padding: 0;
+  max-width: 1184px;
+  width: calc(100% - 2 * 48px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 2 * 24px);
+  }
+}
+/* 480 */
+@media screen and (max-width: 480px) {
+  .header {
+    width: calc(100% - 2 * 16px);
+    margin-top: 16px;
+  }
+}
