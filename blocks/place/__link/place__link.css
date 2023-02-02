@@ -5,6 +5,8 @@
   color: #fff;
   margin: 0;
   padding: 0;
+  text-decoration:underline;
+  text-underline-position: under;
 }
 .place__link:hover {
   opacity: 0.8;

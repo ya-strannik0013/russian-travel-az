@@ -11,24 +11,17 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 90%;
-    margin: auto;
-    margin-top: 88px;
-    margin-bottom: 88px;
-    row-gap: 72px;
-  }
+    max-width: 928px;
 }
-
+}
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 90%;
-    margin: auto;
+    max-width: 720px;
     margin-top: 88px;
     margin-bottom: 88px;
-    row-gap: 72px;
-  }
+    row-gap: 73px;
 }
-
+}
 @media screen and (max-width: 480px) {
   .places {
     max-width: 100%;

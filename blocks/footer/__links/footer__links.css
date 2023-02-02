@@ -4,6 +4,7 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  gap: 18px;
 }
 @media screen and (max-width: 480px) {
   .footer__links {

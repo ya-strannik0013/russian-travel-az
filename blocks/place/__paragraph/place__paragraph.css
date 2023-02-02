@@ -7,10 +7,13 @@
   padding: 0;
 }
 
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
     margin-bottom: 25px;
   }
 }
@@ -19,5 +22,6 @@
   .place__paragraph {
     width: 90%;
     margin: auto;
+    margin-bottom: 25px;
   }
 }
