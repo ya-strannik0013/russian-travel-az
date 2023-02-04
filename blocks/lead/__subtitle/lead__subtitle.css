@@ -7,25 +7,12 @@
   margin-bottom: 66px;
   max-width: 510px;
 }
-@media screen and (max-width: 1024px) {
-  .lead__subtitle {
-    max-width: 80%;
-    font-size: 4vw;
-    margin-bottom: 56px;
-  }
-}
 
-/* 768 */
-@media screen and (max-width: 768px) {
-  .lead__subtitle {
-    max-width: 80%;
-    font-size: 4vw;
-  }
-}
 /* 480 */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 509px) {
   .lead__subtitle {
-    font-size: 5vw;
+    max-width: 288px;
+    font-size: 16px;
     line-height: 125%;
     margin-bottom: 40px;
   }

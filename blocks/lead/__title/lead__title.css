@@ -6,18 +6,12 @@
   margin: 0 auto;
   padding: 0;
   margin-bottom: 32px;
-
+  max-width: 710px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 709px) {
   .lead__title {
-    font-size: 1vmax;
-  }
-}
-
-
-@media screen and (max-width: 480px) {
-  .lead__title {
+    max-width: 288px;
     font-size: 40px;
     line-height: 110%;
     margin-bottom: 16px;
